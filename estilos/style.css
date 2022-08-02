@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(imagens/bg.png);
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1180px;
+    height: 650px;
+    margin-top: 15px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    background: url(imagens/topo-imagem-principal.png) no-repeat;
+}
+
+.logo {
+    width: 151px;
+    height: 66px;
+    padding: 15px;
+}
+
+.menu-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 250px;
+    background: url(imagens/topo-imagem-lateral.png) no-repeat;
+}
+
+.cidades {
+    width: 345px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-top: 15px;
+    margin-left: 75px;
+    border-top: 1px solid #B5AB56;
+    border-bottom: 1px solid #B5AB56;
+}
+
+.locais {
+    font-size: 0.7em;
+    color: #8b8448;
+}
+
+.reserva {
+    background-color: #A29750;
+    color: #FFF5B0;
+    text-decoration: none;
+    font-size: 0.7em;
+    padding: 5px 10px;
+}
+
+.links {
+    width: 345px;
+    margin-left: 75px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.depoimento {
+    width: 226px;
+    height: 164px;
+}
+
+ul {    
+    margin-right: 7px;
+    margin-top: -1px;    
+}
+
+ul li {
+    list-style-type: none;
+    padding: 6px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #6E672C;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+ul a:hover {
+    background-color: #FDF6BE;
+    padding: 5px;
+}
